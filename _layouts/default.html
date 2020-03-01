@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html>
-	<head>
-  
-    <title>{{ page.title }}</title>
-  
-	</head>
-	<body>
-
-		<nav>
-    		<ul>
+<head>
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<title>{{ page.title }}</title>
+</head>
+<body>
+	<nav>
+		<ul>
         		<li><a href="/">top</a></li>
 	        	<li><a href="/space">space</a></li>
         		<li><a href="/links">links</a></li>
     		</ul>
-		</nav>
+	</nav>
+	<div class="container">
 
-		<div class="container">
+	{{ content }}
 
-      {{ content }}
-
-		</div>
-		<footer>
+	</div>
+	<footer>
     		<ul>
         		<li><a href="https://github.com/x1web">github.com/x1web</a></li>
-			</ul>
-		</footer>
-	</body>
+		</ul>
+	</footer>
+</body>
 </html>
